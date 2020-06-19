@@ -19,7 +19,7 @@ Kata1Div.append(Kata1Title)
 for (let index1 = 1; index1  <= 20; index1++) {
     let currentNumber = index1;
     Kata1Div.append(`${currentNumber}, `)
-    Kata1Div.append(currentNumber +", ")
+    
 }
 
 //#2
@@ -129,7 +129,7 @@ Kata9Title.classList.add(`KataTitle`)
 Kata9Title.append("Kata #9")
 Kata9Div.append(Kata9Title)
 
-for (let index9 = 5; index9 <= 100; index9 += 5) {
+for (let index9 = 100; index9 >= 5; index9 -= 5) {
     let currentNumber = index9;
     Kata9Div.append(`${currentNumber}, `)
 }
@@ -143,7 +143,7 @@ Kata10Title.classList.add(`KataTitle`)
 Kata10Title.append("Kata #10")
 Kata10Div.append(Kata10Title)
 
-for (let index5 = 1; index5 <= 10; index5++) {
+for (let index5 = 10; index5 >= 1; index5--) {
     let currentSquare = index5 * index5;
     Kata10Div.append(`${currentSquare}, `)
 }
