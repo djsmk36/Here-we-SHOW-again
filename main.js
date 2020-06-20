@@ -157,10 +157,10 @@ Kata11Title.classList.add(`KataTitle`)
 Kata11Title.append("Kata #11")
 Kata11Div.append(Kata11Title)
 
-for (let index11 = 0; index11 <= sampleArray.length; index11++){
-    if (sampleArray[index11] % 2 === 0){
+for (let index11 = 0; index11 < sampleArray.length; index11++){
+    
         Kata11Div.append(sampleArray[index11] + ' ,')
-    }
+    
 }
 
 //#12
@@ -187,7 +187,7 @@ Kata13Title.classList.add(`KataTitle`)
 Kata13Title.append("Kata #13")
 Kata13Div.append(Kata13Title)
 
-for (let index13 = 0; index13 <= sampleArray.length; index13++){
+for (let index13 = 1; index13 <= sampleArray.length; index13++){
     if (sampleArray[index13] % 2 === 0){
         Kata13Div.append(sampleArray[index13] + ' ,')
     }
